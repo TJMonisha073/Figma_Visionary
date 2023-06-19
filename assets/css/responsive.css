@@ -1,0 +1,28 @@
+@media (min-width: 400px) and (max-width: 991px){
+    /* :root{
+        font-size: 60%;
+    } */
+    .navbar-nav {
+        text-align: center;
+    }
+    .dropdown-menu {
+        width: 100%;
+        text-align: center;
+    }
+    .header-section .content-area {
+        text-align: center;
+        margin-left: 80px;
+        width: 100%;
+        margin: 0px 0px 0px 40px;
+    }
+    .header-section .content-area h1 {
+        font-size: 4.5rem;
+    }
+    .header-section .poster-area {
+        text-align: center;
+    }
+    .button {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
