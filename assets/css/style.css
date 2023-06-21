@@ -62,7 +62,7 @@
     width: 0%;
     height: 3px;
     background: transparent;
-    transition: var(--transition);
+    transition: .50s;
     position: absolute;
     right: 0px;
     bottom: -5px;
@@ -138,3 +138,71 @@
     border-radius: 15px;
 }
 /* header section end */
+/* services section start */
+.service-section {
+    background: var(--soft-light);
+}
+.title h2 {
+    color: var(--dark-color);
+    font-size: calc(3.3rem + 1.5rem);
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+}
+.title p {
+    color: var(--dark-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+}
+.content-area p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px;
+}
+.content-area h4 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+}
+.service-section .content-area a {
+    margin-left: 4%;
+}
+/* services section end */
+/* about us section start */
+
+.about-us-section .content-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-right: calc(6.5rem + 1.5rem);
+}
+.about-us-section .content-area h6 {
+    color: #4E4E4E;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2;
+}
+.about-us-section .content-area h2 {
+    color: var(--dark-color);
+    font-size: calc(3.3rem + 1.5rem);
+    font-weight: 700;
+    line-height: 1.3;
+}
+.about-us-section .content-area p {
+    color: var(--soft-dark);
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.5;
+    margin: 10px 0px 50px 0px;
+}
+.about-us-section .poster-area img{
+    border-radius: 15px;
+}
+/* about us section end */
